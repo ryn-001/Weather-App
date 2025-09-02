@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 80vh;
+    width: 60vw;
+    margin: auto;
+    
+    text-align: center;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Thunderstorm
+
+Drizzle
+
+Rain
+
+Snow
+
+Clear
+
+Clouds
+
+Mist
+
+Smoke
+
+Haze
+
+Dust
+
+Fog
+
+Sand
+
+Ash
+
+Squall
+
+Tornado */

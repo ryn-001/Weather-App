@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0 user-scalable=no">
+    <title>Weather App</title>
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>Weather App</h2>
+
+        <div class="search-bar">
+            <input type="text" name="search" id="search-input">
+            <button id="search-button">
+                <span class="material-symbols-outlined">
+                    search
+                </span>
+            </button>
+        </div>
+
+        <div class="content">
+
+            <h4 id="city-name">--</h4>
+
+            <div id="weather-icon">
+                <img src="" alt="" id="icon">
+            </div>
+
+            <h5 id="main-weather">--</h5>
+            <p id="main-description">--</p>
+
+            <div class="temp-and-humidity">
+                <div class="tempreature">
+                    <img src="" alt="" id="temp-img">
+                    <h6 class="temp">--</h6>
+                </div>
+
+                <div class="humidity">
+                    <img src="" alt="" id="humidity-img">
+                    <h6 class="humid">--</h6>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="./script.js" type="module"></script>
+</body>
+
+</html>
